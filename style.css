@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+}
+body{
+    background-color: #dcf2f9d6;
+}
+
+header {padding: 0px 250px;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 46px 130px;
+}
+
+.header_nav > ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+ul>li>a {
+    text-decoration: none;
+    color: black;
+    font-family: serif;
+    font-size: 21px;
+    transition: all 0;
+}
+.hero_img{
+    margin: 0px 0px 0px 150px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 91px 130px 0px;
+
+}
+.hero_text > h1 {
+    font-family: Mulish;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    color: #000000;
+
+}
+.hero_text > p {
+    font-family: Mulish;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: left;
+    color: #7D7987;
+
+}
+
+.hero_img {
+    width: 609px;
+    height: 466.68px;
+
+}
+
+main {
+    margin: 91px;
+    padding: 0 130px;
+}
+
+.first_section {
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+}
+
+.first_section > h2 {
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+}
+
+.first_section > p {
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align:center;
+    color: #7D7987;
+    width: 66.1%;
+}
+
+.card {
+    width: 400px;
+    height: 380px;
+    background-color: #E7E7E7;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: 20px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 68px 38px 29px 38px;
+    transition: all (0.2);
+}
+
+.card:hover {
+    background-color: #8bbfffbf;
+    cursor: pointer;
+    transition:all (0.2);
+}
+
+.card_image {
+    width: 96px;
+    height: 93px;
+}
+.wrapper_card {
+    margin-top: 36px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 170px 0px 170px;
+    row-gap: 40px;
+    flex-wrap: wrap;
+}
+
+.card_title {
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.card_description {
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+}
+.description{
+    color: #7D7987;
+}
+.Knopka{
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+    color: #458FF6;
+    background-color: white;
+    border: 1.4;
+    border-color: #458FF6;
+    margin: 32px auto 0px auto;
+}
+.Knopka>p{
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.59px;
+}
+.Ikkinchi{
+    display: flex;
+    justify-content: space-between;
+    margin: 75px auto 0px 160px;
+}
+h1{
+    font-family: Mulish;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: center;
+    margin: 76px auto 0px auto;
+}
+.Yozu{
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    margin: 50px 300px 0px 62px;
+}
+.Uchinchi>p{
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    margin: 92px 300px 0px 62px;
+}
+.Uchinchi>button{
+    margin: 62px 117px 0px 62px;
+}
+.Ikkinchi>img{
+    margin: 0px 70px 0px 0px;
+}
+.Yozu2{
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: center;
+    margin: 152px auto 0px auto;
+
+}
+.Kartchka{
+    display: flex;
+    justify-content: space-between;
+    margin: 110px 170px;
+}
+.Rasm{
+    background-color: white;
+    width: 380px;
+    height: 520px;
+    gap: 0px;
+    border-radius: 20px;
+}
+.Rasm>h4{
+    font-family: Mulish;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    margin: 30px 30px 0px 30px ;
+}
+.Rasm>p{
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    margin: 10px 30px 18px 30px;
+    text-align: left;
+    color: #7D7987;
+}
+.Rasm>a{
+    font-family: Mulish;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 0px 30px 0px 30px;
+    text-align: left;
+    color: #4089ED;
+}
+.sekshn1>button{
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22.59px;
+    margin: 0px 0px 0px 700px;
+}
+.Oyoq{
+    width: 1250px;
+    height: 430px;
+    top: 3702px;
+    background-color: #67C3F3;
+    margin: 150px 400px 150px 400px;
+}
+.Oyoq>img{
+    margin: 150px 0px 0px 550px;
+}
+.Oyoq>p{
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+    margin: 17px 0px 0px 230px;
+}
+.Zaybal{
+    display: flex;
+    justify-content: space-between;
+    padding: 46px 400px;
+    margin: 0px 0px 0px 0px;
+}
+.zaybal2>a{
+    display: flex;
+    justify-content: space-between;
+    gap: 0px;
+    list-style: none;
+}
+.zaybal2>a{
+    text-decoration: none;
+    font-family: serif;
+    font-size: 21px;
+    transition: all 0;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25.1px;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+.zaybal2>p{
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22.59px;
+    text-align: left;
+    color: #FFFFFF;
+}
